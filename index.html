@@ -176,9 +176,9 @@ class="themespring" -->
                     <img src="/medias/tutu.png" class="logo-img" alt="LOGO">
                     
                     <!-- 大屏幕下logo字体 -->
-                    <span class="bigwidth">itsNeko-openSource-Blog</span>
+                    <span class="bigwidth">Jiahao-Blog</span>
                     <!-- 小屏幕下logo字体 -->
-                    <span class="smallwidth">itsNeko</span>
+                    <span class="smallwidth">Jiahao</span>
                 </a>
             </div>
             
@@ -955,7 +955,7 @@ class="themespring" -->
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['欢迎使用itsNeko开源博客，也欢迎大家的赞赏',''],
+                        strings: ['他们历尽苦难，我们获得辉煌',''],
                         startDelay: 200,
                         typeSpeed: 120,
                         loop: true,
@@ -1117,9 +1117,9 @@ class="themespring" -->
                 </div>              
             </div>
             <div class="title center-align">
-              《质数的孤独》
+              《苦难辉煌》
             </div>
-            <div class="yulunr">越长大，越觉得孤独竟是生命的必然，每个人都是质数列中孤单却特别的存在。或许，说不上特别，也就算个普普通通，再或者说，用＂普通＂都夸张了些。我们都是那孤独的质数，我们都承受着质数的孤独。——保罗·乔尔达诺 《质数的孤独》</div>
+            <div class="yulunr">不论我们如何富强，也永远不要改变国歌中的这一句：“起来，不愿做奴隶的人们，把我们的血肉，筑起我们新的长城。”不论我们如何艰难，也永远要记住国际歌中的这一句：“从来就没有什么救世主，也不靠神仙皇帝。真正的英雄具有那种深刻的悲剧意味：播种，但不参加收获。 这就是民族脊梁”——金一南 《苦难辉煌》</div>
         </div>
         <!-- 王小波语录栏结束 -->
     </div>
@@ -1128,6 +1128,42 @@ class="themespring" -->
           
 
           
+
+          
+          <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
+    
+    <div class="title center-align">
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;精彩视频
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                    ></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'true' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0'),
+            video: {
+                url: 'https://upos-sz-mirror08c.bilivideo.com/upgcxcode/23/03/412220323/412220323-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1689942434&gen=playurlv2&os=08cbv&oi=17621919&trid=a436af36194a48bea93a71bf2328e615h&mid=0&platform=html5&upsig=52ec067006f75a884fd4a3eb4a5c32a0&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&bvc=vod&nettype=0&bw=54376&logo=80000000',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
 
           
 
@@ -1240,18 +1276,15 @@ class="themespring" -->
               </style>
               <!-- 公告文字栏开始 -->
               <div class="textsst">
-                <p>作者：Hello，itsNeko，我是本开源博客的作者，itsNeko博客地址:<a href="https://dyfa.top/" target="_blank">itsNeko博客~</a>
+                <p>作者：Hello，我是一名不知名的高中生，博客地址:<a href="https://jiahaoboy.github.io/" target="_blank">程同学的博客~</a>
                 </p>
-                <p>下载：本开源博客的源码已经上传我的github和gitee仓库，欢迎<code>Star</code>，下载地址：
-                  <a href="https://github.com/nekodeng/hexo-theme-itsneko.git" target="_blank">源码github下载地址~</a>
-                  <a href="https://gitee.com/nekodeng/hexo-theme-itsneko.git" target="_blank">源码gitee下载地址~</a>
+                
                 </p>
-                <p>赞赏：感谢各位的喜爱，也欢迎大家的赞赏，赞赏二维码见该页面：<a href="https://dyfa.top/donate/" target="_blank">赞赏itsNeko开源博主~</a>
+                <p>赞赏：感谢各位的喜爱，也欢迎大家的赞赏，赞赏二维码见该页面：<a href="https://jiahaoboy.github.io/donate/" target="_blank">赞赏itsNeko开源博主~</a>
                 </p>
-                <p>食用：本开源博客食用方法见下面第一篇文章:<a href="https://dyfa.top/posts/itsneko-opensource-blog.html"
-                    target="_blank">关于itsNeko开源博客食用方法~</a>，尽量写的通俗易懂，若懂一点代码那便是极好的。</p>
-                <p>联系：怎样联系itsNeko，留言：<a href="https://dyfa.top/contact/" target="_blank">itsNeko留言板</a>
-                  ，邮箱：<code>nekodeng@qq.com</code>，QQ: <code>2018854221</code></p>
+                
+                <p>联系：怎样联系我捏，留言：<a href="https://jiahaoboy.github.io/contact/" target="_blank">同志我的留言板</a>
+                  ，邮箱：<code>3379515285@qq.com</code>，QQ: <code>3379515285</code></p>
               </div>
               <!-- 公告文字栏结束 -->
               <!-- 旋转樱花 -->
@@ -1309,6 +1342,96 @@ class="themespring" -->
   <!-- 所有文章卡片开始 -->
   <article id="articles" class="container articles">
     <div class="row article-row">
+      
+      <div class="article col s12 m6 l4">
+        <div class="card">
+          <!-- 推荐文章置顶模块效果开始 -->
+          
+          <!-- 推荐文章置顶模块效果结束 -->
+          <a href="/posts/essay-demo.html">
+            <div class="card-image">
+
+              
+              <img src="/medias/toc-banner/aticalmode.jpg" class="responsive-img" alt="这是随笔文章模板">
+              
+              <!-- 福袋按钮 -->
+              <div class="caishendeng">
+                <div class="caishenxian fudaixian">
+                  <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                </div>
+              </div>
+              <span class="card-title">
+                这是随笔文章模板
+                <!-- 文章卡片hover线条效果 -->
+                <span class="titlesline">
+                  <style>
+                    .titlesline {
+                      width: 0px;
+                      height: 4px;
+                      background-color: #fadca6;
+                      border-radius: 2px;
+                      position: absolute;
+                      top: 10px;
+                      left: 24px;
+                    }
+
+                    body.dark .titlesline {
+                      filter: brightness(.7);
+                    }
+
+                    article .card .titlesline {
+                      transition: all 0.36s ease;
+                    }
+
+                    article .card-image:hover .titlesline {
+                      width: 36px;
+                    }
+                  </style>
+                </span>
+              </span>
+            </div>
+          </a>
+
+          <div class="card-content article-content">
+            <div class="summary block-with-text">
+              
+              这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~
+    节选自《苦难辉煌》- 前言
+  
+      我从哪里来？我们从哪里来？
+所问像生命一样久远和古老
+
+  不仅是未来对过去的寻问，是大树对根须的寻问，是火山对岩浆的寻问，是有
+              
+            </div>
+            <div class="publish-info">
+              <span class="publish-date">
+                <i class="far fa-clock fa-fw icon-date"></i>2022-12-04
+              </span>
+              <span class="publish-author">
+                
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                  随笔
+                </a>
+                
+                
+              </span>
+            </div>
+          </div>
+
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/%E9%9A%8F%E7%AC%94/">
+              <span class="chip bg-color">随笔</span>
+            </a>
+            
+          </div>
+          
+        </div>
+      </div>
       
       <div class="article col s12 m6 l4">
         <div class="card">
@@ -1513,93 +1636,6 @@ itsNeko开源介绍
         </div>
       </div>
       
-      <div class="article col s12 m6 l4">
-        <div class="card">
-          <!-- 推荐文章置顶模块效果开始 -->
-          
-          <!-- 推荐文章置顶模块效果结束 -->
-          <a href="/posts/essay-demo.html">
-            <div class="card-image">
-
-              
-              <img src="/medias/toc-banner/aticalmode.jpg" class="responsive-img" alt="这是随笔文章模板">
-              
-              <!-- 福袋按钮 -->
-              <div class="caishendeng">
-                <div class="caishenxian fudaixian">
-                  <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
-                </div>
-              </div>
-              <span class="card-title">
-                这是随笔文章模板
-                <!-- 文章卡片hover线条效果 -->
-                <span class="titlesline">
-                  <style>
-                    .titlesline {
-                      width: 0px;
-                      height: 4px;
-                      background-color: #fadca6;
-                      border-radius: 2px;
-                      position: absolute;
-                      top: 10px;
-                      left: 24px;
-                    }
-
-                    body.dark .titlesline {
-                      filter: brightness(.7);
-                    }
-
-                    article .card .titlesline {
-                      transition: all 0.36s ease;
-                    }
-
-                    article .card-image:hover .titlesline {
-                      width: 36px;
-                    }
-                  </style>
-                </span>
-              </span>
-            </div>
-          </a>
-
-          <div class="card-content article-content">
-            <div class="summary block-with-text">
-              
-              这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~
-    节选自《你若安好便是晴天》- 前言
-  
-  几场梅雨，几卷荷风，江南已是烟水迷离。小院里湿润的青苔在雨中纯净生长。这个季节，许多人都在打听关于莲荷的消息，以及茉莉在黄昏浮动
-              
-            </div>
-            <div class="publish-info">
-              <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2020-01-04
-              </span>
-              <span class="publish-author">
-                
-                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                
-                <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                  随笔
-                </a>
-                
-                
-              </span>
-            </div>
-          </div>
-
-          
-          <div class="card-action article-tags">
-            
-            <a href="/tags/%E9%9A%8F%E7%AC%94/">
-              <span class="chip bg-color">随笔</span>
-            </a>
-            
-          </div>
-          
-        </div>
-      </div>
-      
     </div>
   </article>
   <!-- 所有文章卡片结束 -->
@@ -1685,7 +1721,7 @@ itsNeko开源介绍
     <!-- 版权信息 -->
     <div class="col s12 m6 l6 copy-right">
       Copyright&nbsp;&copy;
-      <span id="year">2021</span>
+      <span id="year">2022</span>
       <a href="/about" target="_blank">程同学</a>
       &nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
       &nbsp;Theme&nbsp;<a href="https://github.com/nekodeng/hexo-theme-itsneko" target="_blank">itsNeko</a>
@@ -1693,7 +1729,7 @@ itsNeko开源介绍
 
       
       &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total number of words: &nbsp;<span
-        class="white-color">3k</span>&nbsp;
+        class="white-color">3.1k</span>&nbsp;
       
       
       
@@ -1720,7 +1756,7 @@ itsNeko开源介绍
           var days = hours * 24;
           var years = days * 365;
           var today = new Date();
-          var startYear = "2021";
+          var startYear = "2022";
           var startMonth = "12";
           var startDate = "16";
           var startHour = "0";
