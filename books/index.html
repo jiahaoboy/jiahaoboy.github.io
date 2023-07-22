@@ -134,6 +134,7 @@
 class="themespring" -->
 <body>
     <!-- 网站全局深色模式设置开始 -->
+	
     <script>
         if (localStorage.getItem('dark') === '1') {
         document.body.classList.add('dark');
@@ -161,7 +162,7 @@ class="themespring" -->
         }
     </script>
     <div onclick="switchSpringThemes()" id="switchspring">
-        <img class="chunjiepic" src="/medias/spring-img/denglong.png" title="春节主题" />
+        <img class="chunjiepic" src="/medias/loading.gif" data-original="/medias/spring-img/denglong.png" title="春节主题" />
     </div>
     <!-- 中国节日按钮结束  -->
     <!-- 网站主题切换模式结束 -->
@@ -172,13 +173,15 @@ class="themespring" -->
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
+				<div>
                     
-                    <img src="/medias/tutu.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/loading.gif" data-original="/medias/tutu.png" class="logo-img" alt="LOGO">
                     
                     <!-- 大屏幕下logo字体 -->
                     <span class="bigwidth">Jiahao-Blog</span>
                     <!-- 小屏幕下logo字体 -->
                     <span class="smallwidth">Jiahao</span>
+					</div>
                 </a>
             </div>
             
@@ -441,7 +444,7 @@ class="themespring" -->
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/tutu.png" class="logo-img circle responsive-img">
+        <img src="/medias/loading.gif" data-original="/medias/tutu.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">程同学的小窝~</div>
         <div class="logo-desc">
@@ -679,6 +682,7 @@ class="themespring" -->
         
         
     </nav>
+	
 </header>
 <!-- header模块结束 -->
 
@@ -830,11 +834,11 @@ class="themespring" -->
         background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
     }
     @font-face {
-        font-family: "华文行楷";
-        src: url('/fonts/华文行楷.ttf');
+        font-family: "瘦金体";
+        src: url('/fonts/瘦金体.ttf');
     }
     .deng-t {
-        font-family: 华文行楷;
+        font-family: 瘦金体;
         font-size: 26px;
         color: #dc8f03;
         font-weight: bold;
@@ -1238,7 +1242,7 @@ class="themespring" -->
             <!-- 福袋按钮 -->
             <div class="caishendeng">        
                 <div class="guguxian">
-                    <img class="caishenpic gugus" src="/medias/spring-img/gu1.png" />
+                    <img class="caishenpic gugus" src="/medias/loading.gif" data-original="/medias/spring-img/gu1.png" />
                 </div>              
             </div>
             <div class="card-content">
@@ -1256,7 +1260,7 @@ class="themespring" -->
         <div class="info">
             <a href="https://www.duokan.com/book/169714" target="_blank" rel="noreferrer noopener" class="book-container">
                 <div class="book">
-                    <img src="/medias/project-img/es6pic.jpg" alt="ES6 标准入门">
+                    <img src="/medias/loading.gif" data-original="/medias/project-img/es6pic.jpg" alt="ES6 标准入门">
                 </div>
             </a>
             <div>
@@ -1279,10 +1283,10 @@ class="themespring" -->
             <p class="description">“ 柏林已经来了命令，阿尔萨斯和洛林的学校只许教 ES6 了...他转身朝着黑板，拿起一支粉笔，使出全身的力量，写了两个大字：“ES6 万岁！”《最后一课》。 ”</p>
     </li>
     <!-- 每个li标签内容代表一本书籍的所有信息 -->
-    <li><div class="info"><a href="https://www.duokan.com/book/120447" target="_blank" rel="noreferrer noopener" class="book-container"><div class="book"><img src="/medias/project-img/jspic.jpg" alt="JavaScript 设计模式与开发实践"></div></a><div><h3>《 JavaScript 设计模式与开发实践 》</h3><p>作者：曾探</p><p>出版时间：2015-05-01</p><p>阅读进度：正在阅读...</p><p><span>读书笔记：</span><a href="javascript:;" target="" rel="noopener noreferrer"> 暂无 </a></p><p><span>推荐指数：</span><span></span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p></div></div><p class="description">“ 设计模式的定义：在面向对象软件设计过程中针对特定问题的简洁而优雅的解决方案。书中介绍了 JavaScript 常用的 16 种设计模式，受益良多。 ”</p></li><li><div class="info"><a href="https://www.duokan.com/book/102758" target="_blank" rel="noreferrer noopener" class="book-container"><div class="book">
-      <img src="/medias/project-img/jspicnoknow.jpg" alt="你不知道的 JavaScript(上卷)"></div>
+    <li><div class="info"><a href="https://www.duokan.com/book/120447" target="_blank" rel="noreferrer noopener" class="book-container"><div class="book"><img src="/medias/loading.gif" data-original="/medias/project-img/jspic.jpg" alt="JavaScript 设计模式与开发实践"></div></a><div><h3>《 JavaScript 设计模式与开发实践 》</h3><p>作者：曾探</p><p>出版时间：2015-05-01</p><p>阅读进度：正在阅读...</p><p><span>读书笔记：</span><a href="javascript:;" target="" rel="noopener noreferrer"> 暂无 </a></p><p><span>推荐指数：</span><span></span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p></div></div><p class="description">“ 设计模式的定义：在面向对象软件设计过程中针对特定问题的简洁而优雅的解决方案。书中介绍了 JavaScript 常用的 16 种设计模式，受益良多。 ”</p></li><li><div class="info"><a href="https://www.duokan.com/book/102758" target="_blank" rel="noreferrer noopener" class="book-container"><div class="book">
+      <img src="/medias/loading.gif" data-original="/medias/project-img/jspicnoknow.jpg" alt="你不知道的 JavaScript(上卷)"></div>
     </a><div><h3>《 你不知道的 JavaScript(上卷) 》</h3><p>作者：Kyle Simpson</p><p>出版时间：2015-04-01</p><p>阅读进度：正在阅读...</p><p><span>读书笔记：</span><a href="javascript:;" target="" rel="noopener noreferrer">暂无</a></p><p><span>推荐指数：</span><span></span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p></div></div><p class="description">“ You-Dont-Know-JS 系列目前在 Github 上已获得近 7.5 万 star，说是 2017 年最火的一个项目也不为过，学而不思则殆，重新温故知新。 ”</p></li><li><div class="info"><a href="https://www.jb51.net/onlineread/JavaScript-Garden-CN/#intro" target="_blank" rel="noreferrer noopener" class="book-container"><div class="book">
-      <img src="/medias/project-img/jssecret.jpg" alt="JavaScript 秘密花园"></div>
+      <img src="/medias/loading.gif" data-original="/medias/project-img/jssecret.jpg" alt="JavaScript 秘密花园"></div>
     </a><div><h3>《 JavaScript 秘密花园 》</h3><p>作者：伊沃·韦特泽尔</p><p>出版时间：未出版</p><p>阅读进度：温习中</p><p><span>读书笔记：</span><a href="javascript:;" target="" rel="noopener noreferrer"> 暂无 </a></p><p><span>推荐指数：</span><span></span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p></div></div><p class="description">“ JavaScript 秘密花园是一个不断更新，主要关心 JavaScript 一些古怪用法的文档。初学者可以籍此深入了解 JavaScript 的语言特性。 ”</p></li></ul></div>
 
 </div>
@@ -1600,7 +1604,7 @@ class="themespring" -->
     <!-- 福袋按钮 -->
     <div class="caishendeng">        
         <div class="caishenxian fudaixian">
-            <img class="caishenpic fudao" src="/medias/spring-img/fudao.png" />
+            <img class="caishenpic fudao" src="/medias/loading.gif" data-original="/medias/spring-img/fudao.png" />
         </div>              
     </div>
    
@@ -1618,8 +1622,8 @@ class="themespring" -->
         el: '#vcomments',
         enableQQ: true,
         boolean: true,
-        appId: '',
-        appKey: '',
+        appId: '9snhsmCjufii1eB5uEb9ithK-gzGzoHsz',
+        appKey: '0sUE0w0lrPLBwFjhNVnnE1Lf',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -1629,14 +1633,14 @@ class="themespring" -->
         lang: 'zh-cn',
         placeholder: '评论前记得点击下方机器人验证按钮~ （客官留下QQ邮箱可好，会得到及时回复哦~）',    
 
-        adminEmailMd5: '',
+        adminEmailMd5: 'f5a27504701e42b8c0ee7ee8f31bd39f',
 
-        master: [""],
-        friends: [""],
-        tagMeta: ["博主", "小伙伴", "访客"],
-        // tagMeta: '博主,小伙伴,访客',
-        // master: '',
-        // friends: '',
+        master: ["f5a27504701e42b8c0ee7ee8f31bd39f"],
+        friends: ["638537aa572915a7378d4660416b14f3"],
+        tagMeta: ["博主", "张同学", "访客"],
+        // tagMeta: '博主,张同学,访客',
+        // master: 'f5a27504701e42b8c0ee7ee8f31bd39f',
+        // friends: '638537aa572915a7378d4660416b14f3',
         emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest"]
     });
 </script>
@@ -1747,7 +1751,7 @@ class="themespring" -->
     style="margin-bottom: 15px !important;">
     <!-- 访客地图 -->
     <div class="col s12 m3 l3 social-link" id="visitmap">
-      <a target="_blank" rel="noopener" href="https://clustrmaps.com/site/1bd51" title="访客地图"><img src="/medias/map-visit.png" /></a>
+      <a target="_blank" rel="noopener" href="https://clustrmaps.com/site/1bd51" title="访客地图"><img src="/medias/loading.gif" data-original="/medias/map-visit.png" /></a>
     </div>
     <!-- 版权信息 -->
     <div class="col s12 m6 l6 copy-right">
@@ -1969,7 +1973,7 @@ $(function () {
     <!--动态线条背景-->
     <script type="text/javascript" color="122 103 158" opacity='0.12' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
     </script>
- 
+    
     <script type="text/javascript" src="/js/click_show_text.js"></script>
     <script src="/js/linkcard.js"></script>
 
@@ -2238,5 +2242,18 @@ $(function () {
             }
         });
     </script>
-</body>
+
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(a){a.imageLazyLoadSetting.processImages=t;var i=a.imageLazyLoadSetting.isSPA,o=a.imageLazyLoadSetting.preloadRatio||1,r=c();function c(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){i&&(r=c());for(var t,e,n=0;n<r.length;n++)t=r[n],e=void 0,0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(a.innerHeight*o||document.documentElement.clientHeight*o)&&function(){var e=r[n];!function(t,e){if(t.hasAttribute("bg-lazy"))return t.removeAttribute("bg-lazy"),e&&e();var n=new Image,a=t.getAttribute("data-original");n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a)}(e,function(){r=r.filter(function(t){return e!==t}),a.imageLazyLoadSetting.onImageLoaded&&a.imageLazyLoadSetting.onImageLoaded(e)})}()}function e(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",e),a.addEventListener("resize",e),a.addEventListener("orientationchange",e)}(this);</script></body>
 </html>

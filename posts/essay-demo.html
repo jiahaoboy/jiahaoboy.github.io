@@ -134,6 +134,7 @@
 class="themespring" -->
 <body>
     <!-- 网站全局深色模式设置开始 -->
+	
     <script>
         if (localStorage.getItem('dark') === '1') {
         document.body.classList.add('dark');
@@ -161,7 +162,7 @@ class="themespring" -->
         }
     </script>
     <div onclick="switchSpringThemes()" id="switchspring">
-        <img class="chunjiepic" src="/medias/spring-img/denglong.png" title="春节主题" />
+        <img class="chunjiepic" src="/medias/loading.gif" data-original="/medias/spring-img/denglong.png" title="春节主题" />
     </div>
     <!-- 中国节日按钮结束  -->
     <!-- 网站主题切换模式结束 -->
@@ -172,13 +173,15 @@ class="themespring" -->
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
+				<div>
                     
-                    <img src="/medias/tutu.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/loading.gif" data-original="/medias/tutu.png" class="logo-img" alt="LOGO">
                     
                     <!-- 大屏幕下logo字体 -->
                     <span class="bigwidth">Jiahao-Blog</span>
                     <!-- 小屏幕下logo字体 -->
                     <span class="smallwidth">Jiahao</span>
+					</div>
                 </a>
             </div>
             
@@ -441,7 +444,7 @@ class="themespring" -->
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/tutu.png" class="logo-img circle responsive-img">
+        <img src="/medias/loading.gif" data-original="/medias/tutu.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">程同学的小窝~</div>
         <div class="logo-desc">
@@ -679,6 +682,7 @@ class="themespring" -->
         
         
     </nav>
+	
 </header>
 <!-- header模块结束 -->
 
@@ -830,11 +834,11 @@ class="themespring" -->
         background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
     }
     @font-face {
-        font-family: "华文行楷";
-        src: url('/fonts/华文行楷.ttf');
+        font-family: "瘦金体";
+        src: url('/fonts/瘦金体.ttf');
     }
     .deng-t {
-        font-family: 华文行楷;
+        font-family: 瘦金体;
         font-size: 26px;
         color: #dc8f03;
         font-weight: bold;
@@ -1171,13 +1175,13 @@ h3:hover {
             <!-- 福袋按钮 -->
             <div class="caishendeng">        
                 <div class="guguxian wenzhangxian">
-                    <img class="caishenpic gugus" src="/medias/spring-img/caishen.png" />
+                    <img class="caishenpic gugus" src="/medias/loading.gif" data-original="/medias/spring-img/caishen.png" />
                 </div>              
             </div>
             <!-- 圣诞按钮 -->
             <div class="shengdandeng">        
                 <div class="shengdanxian" style="left: 50%;">
-                    <img class="shengdanpic fudai" src="/medias/christmas-img/shengdanren4.png" />
+                    <img class="shengdanpic fudai" src="/medias/loading.gif" data-original="/medias/christmas-img/shengdanren4.png" />
                 </div>              
             </div>
             <div class="row tag-cate">
@@ -1480,10 +1484,10 @@ h3:hover {
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/loading.gif" data-original="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1807,7 +1811,7 @@ h3:hover {
     <!-- 福袋按钮 -->
     <div class="caishendeng">        
         <div class="caishenxian fudaixian">
-            <img class="caishenpic fudao" src="/medias/spring-img/fudao.png" />
+            <img class="caishenpic fudao" src="/medias/loading.gif" data-original="/medias/spring-img/fudao.png" />
         </div>              
     </div>
    
@@ -1825,8 +1829,8 @@ h3:hover {
         el: '#vcomments',
         enableQQ: true,
         boolean: true,
-        appId: '',
-        appKey: '',
+        appId: '9snhsmCjufii1eB5uEb9ithK-gzGzoHsz',
+        appKey: '0sUE0w0lrPLBwFjhNVnnE1Lf',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -1836,14 +1840,14 @@ h3:hover {
         lang: 'zh-cn',
         placeholder: '评论前记得点击下方机器人验证按钮~ （客官留下QQ邮箱可好，会得到及时回复哦~）',    
 
-        adminEmailMd5: '',
+        adminEmailMd5: 'f5a27504701e42b8c0ee7ee8f31bd39f',
 
-        master: [""],
-        friends: [""],
-        tagMeta: ["博主", "小伙伴", "访客"],
-        // tagMeta: '博主,小伙伴,访客',
-        // master: '',
-        // friends: '',
+        master: ["f5a27504701e42b8c0ee7ee8f31bd39f"],
+        friends: ["638537aa572915a7378d4660416b14f3"],
+        tagMeta: ["博主", "张同学", "访客"],
+        // tagMeta: '博主,张同学,访客',
+        // master: 'f5a27504701e42b8c0ee7ee8f31bd39f',
+        // friends: '638537aa572915a7378d4660416b14f3',
         emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest"]
     });
 </script>
@@ -1891,12 +1895,12 @@ h3:hover {
                 <a href="/posts/essay-demo.html">
                     <div class="card-image">
                         
-                        <img src="/medias/toc-banner/aticalmode.jpg" class="responsive-img" alt="这是随笔文章模板">
+                        <img src="/medias/loading.gif" data-original="/medias/toc-banner/aticalmode.jpg" class="responsive-img" alt="这是随笔文章模板">
                         
                         <!-- 福袋按钮 -->
                         <div class="caishendeng">        
                             <div class="caishenxian wenzhangxian">
-                                <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                                <img class="caishenpic lala" src="/medias/loading.gif" data-original="/medias/spring-img/fish.png" />
                             </div>              
                         </div>
                         <span class="card-title">
@@ -1956,12 +1960,12 @@ h3:hover {
                 <a href="/posts/itsneko-opensource-blog.html">
                     <div class="card-image">
                         
-                        <img src="/medias/toc-banner/aboutme.JPG" class="responsive-img" alt="关于itsNeko开源博客食用方法">
+                        <img src="/medias/loading.gif" data-original="/medias/toc-banner/aboutme.JPG" class="responsive-img" alt="关于itsNeko开源博客食用方法">
                         
                         <!-- 福袋按钮 -->
                         <div class="caishendeng">        
                             <div class="caishenxian wenzhangxian">
-                                <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                                <img class="caishenpic lala" src="/medias/loading.gif" data-original="/medias/spring-img/fish.png" />
                             </div>              
                         </div>
                         <span class="card-title">
@@ -2262,7 +2266,7 @@ itsNeko开源介绍
     style="margin-bottom: 15px !important;">
     <!-- 访客地图 -->
     <div class="col s12 m3 l3 social-link" id="visitmap">
-      <a target="_blank" rel="noopener" href="https://clustrmaps.com/site/1bd51" title="访客地图"><img src="/medias/map-visit.png" /></a>
+      <a target="_blank" rel="noopener" href="https://clustrmaps.com/site/1bd51" title="访客地图"><img src="/medias/loading.gif" data-original="/medias/map-visit.png" /></a>
     </div>
     <!-- 版权信息 -->
     <div class="col s12 m6 l6 copy-right">
@@ -2484,7 +2488,7 @@ $(function () {
     <!--动态线条背景-->
     <script type="text/javascript" color="122 103 158" opacity='0.12' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
     </script>
- 
+    
     <script type="text/javascript" src="/js/click_show_text.js"></script>
     <script src="/js/linkcard.js"></script>
 
@@ -2753,5 +2757,18 @@ $(function () {
             }
         });
     </script>
-</body>
+
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(a){a.imageLazyLoadSetting.processImages=t;var i=a.imageLazyLoadSetting.isSPA,o=a.imageLazyLoadSetting.preloadRatio||1,r=c();function c(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){i&&(r=c());for(var t,e,n=0;n<r.length;n++)t=r[n],e=void 0,0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(a.innerHeight*o||document.documentElement.clientHeight*o)&&function(){var e=r[n];!function(t,e){if(t.hasAttribute("bg-lazy"))return t.removeAttribute("bg-lazy"),e&&e();var n=new Image,a=t.getAttribute("data-original");n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a)}(e,function(){r=r.filter(function(t){return e!==t}),a.imageLazyLoadSetting.onImageLoaded&&a.imageLazyLoadSetting.onImageLoaded(e)})}()}function e(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",e),a.addEventListener("resize",e),a.addEventListener("orientationchange",e)}(this);</script></body>
 </html>
